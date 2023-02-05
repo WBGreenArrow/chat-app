@@ -1,0 +1,80 @@
+@use "../../styles/App.module.scss" as var;
+
+.messageContainer{
+    width: calc(100% - 40rem);
+    padding: 5.9rem 3.5rem 0 3.5rem;
+    height: 100%;
+    background-color: var.$white-color;
+    box-shadow: -0.6rem 0 0.8rem -0.10rem rgba(0, 0, 0, 0.1);
+
+
+    .messageHeader{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+
+    
+        & .messageHeaderInfo{
+            width: 26.9rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    
+            & > :nth-child(1){
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 50%;
+                background-color: var.$status-online
+            }
+
+            & :nth-child(2){
+                color:var.$black-color;
+                font-size: 2.4rem;
+                font-weight: 700;
+                font-family: Montserrat;
+
+            }
+
+            & :nth-child(3){
+                width: 2.6rem;
+                height: 2.6rem;
+                cursor: pointer;
+
+                & > img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        & .messageHeaderButtonsContainer{
+            width: 10rem;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content:space-between;
+
+            & span{
+                width:4rem;
+                height:4rem;
+                cursor: pointer;
+
+                & img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+    
+    }
+    
+
+
+
+}
+
+
+

@@ -1,0 +1,8 @@
+@use "../../styles/App.module.scss" as var;
+
+
+.sideBarContainer{
+    width: 40rem;
+    height: 100%;
+    background-color: var.$white-color;
+}
