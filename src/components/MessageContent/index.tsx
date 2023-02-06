@@ -9,7 +9,7 @@ export const MessageContent = () => {
       <div className={styles.messageHeader}>
         <div className={styles.messageHeaderInfo}>
           <span />
-          <span>Raul Fernandez</span>
+          <span>Wellson E Brito</span>
           <span>
             <img src={settingsIcon} alt="Setting icon" />
           </span>

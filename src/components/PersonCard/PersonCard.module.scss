@@ -1,0 +1,57 @@
+@use "../../styles/App.module.scss" as var;
+
+.cardContainer{
+   width: 34.5rem;
+   height: 8.88rem;
+   border-radius: 1.6rem;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   background-color: var.$blue-color;
+
+   & .cardContent{
+    width: calc(100% - 3.2rem);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    & > span {
+        width: 7.2rem;
+        height: 7.2rem;
+      
+
+        & > img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    
+    & .cardInfo {
+        width: calc(100% - 7.2rem);
+        padding-left: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        & :first-child{
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+
+        & :last-child{
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 1.4rem;
+        }
+    }
+    
+   }
+
+}
+
+
+

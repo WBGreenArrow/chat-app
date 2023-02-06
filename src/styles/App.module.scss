@@ -24,7 +24,7 @@ html {
 .mainContainer{
   display: flex;
   align-items:center;
-  max-width: 120rem;
+  max-width: 190rem;
   height: 100vh;
   margin: 0 auto;
 }
@@ -35,6 +35,6 @@ html {
   flex-direction: row;
   align-items:center;
   background-color: $white-color;
-  height: 80vh;
-  max-height: 100rem;
+  height: 100vh;
+  max-height: 108rem;
 }

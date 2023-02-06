@@ -2,7 +2,67 @@
 
 
 .sideBarContainer{
-    width: 40rem;
+    width: 48.6rem;
     height: 100%;
     background-color: var.$white-color;
+
+   & .sideBarHeaderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+       & .sideBarHeaderContent{
+        display: flex;
+        width: 39.8rem;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4.8rem;
+
+        
+       
+           & .sideBarHeaderSearchInput{
+                width:34.5rem;
+                height: 5.2rem;
+                border-radius: 4rem;
+                background-color: var.$grey-color;
+                border: none;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+
+                & > input{
+                    outline: none;
+                    border: none;
+                    width: calc(100%  - 8rem);
+                    background-color: transparent;
+                    
+                    font-family: Montserrat;
+                    font-size: 1.6rem;
+
+                }
+
+                & > span {
+                    cursor: pointer;
+                }
+            }
+
+       }
+    }   
+
+    & .sideBarMessagesContainer{
+        width:100%;
+        padding-top: 4.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & .sideBarMessagesContent{
+            width: 41.3rem;
+            height: 71.8rem;
+            overflow-y: auto;
+        }
+    }
+
 }
